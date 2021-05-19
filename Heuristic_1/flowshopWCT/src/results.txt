@@ -1,0 +1,19 @@
+init:
+
+	t.test (a.known, b.known, paired=T)$p.value = 1.690908e-07
+	wilcox.test (a.known, b.known, paired=T)$p.value = 1.204006e-06
+
+pivot:
+
+	ber and btr:
+		1.698793e-42
+		1.671329e-11
+	ber and bir:
+		9.9874e-11
+		1.470588e-09
+	btr and bir:
+		5.922769e-45
+		1.671329e-11
+gen:
+	1.281934e-10
+	9.559236e-09
